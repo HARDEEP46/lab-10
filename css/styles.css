@@ -46,18 +46,18 @@ header nav ul {
 
 /* STEP 4a: Apply a 1px dashed red outline around each of the LI elements inside the HEADER NAV so that we can see that each LI is a box (border-width, border-style, and border-color) */
 
-header nav li {
-	/*border: 1px dashed red;*/
-}
 
 /* STEP 4b: Set the above LI elements (which default to display: block as we can see in the browser), to display: inline-block so that they line up horizontally across the top of the page */
-li {
-  display: inline-block;
-}
+
 /* STEP 4c: Add a margin-right of 0.5em (half a font-size) to the above rule for the LI elements */
-li {
+
+header nav li {
+	/*border: 1px dashed red;*/
+  display: inline-block;
   margin-right: 0.5em;
 }
+
+
 /* STEP 4e: Comment out the properties and values for the red border in the above CSS rule - we don't need it any more */
 /*border: 1px dashed red;*/
 
